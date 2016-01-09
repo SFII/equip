@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"landingPage\");\nTemplate[\"landingPage\"] = new Template(\"Template.landingPage\", (function() {\n  var view = this;\n  return HTML.Raw(\"<p> body </p>\");\n}));\n","bodyAttrs":{}}
