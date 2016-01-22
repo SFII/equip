@@ -6,12 +6,37 @@ Template["header"] = new Template("Template.header", (function() {
     "class": "navbar navbar-inverse navbar-fixed-top"
   }, "\n      ", HTML.DIV({
     "class": "container"
-  }, "\n        ", HTML.Raw('<div class="navbar-header">\n          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n          </button>\n          <a class="navbar-brand" href="#">EQUIP App</a>\n        </div>'), "\n        ", HTML.DIV({
-    id: "navbar",
-    "class": "navbar-collapse collapse"
-  }, "\n          ", HTML.UL({
+  }, "\n      ", HTML.A({
+    "class": "navbar-brand",
+    href: function() {
+      return Spacebars.mustache(view.lookup("pathFor"), "landingPage");
+    }
+  }, "EQUIP"), "\n      ", HTML.UL({
+    "class": "nav navbar-nav"
+  }, "\n        ", Blaze.If(function() {
+    return Spacebars.call(view.lookup("currentUser"));
+  }, function() {
+    return [ "\n        ", HTML.LI({
+      "class": "nav-item"
+    }, "\n          ", HTML.A({
+      "class": "nav-link",
+      href: function() {
+        return Spacebars.mustache(view.lookup("pathFor"), "classroomPage");
+      }
+    }, "Classrooms"), "\n        "), "\n        ", HTML.LI({
+      "class": "nav-item"
+    }, "\n          ", HTML.A({
+      "class": "nav-link",
+      href: "#"
+    }, "Settings"), "\n        "), "\n        ", HTML.LI({
+      "class": "nav-item"
+    }, "\n          ", HTML.A({
+      "class": "nav-link",
+      href: "#"
+    }, "About"), "\n        "), "\n        " ];
+  }), "\n      "), "\n        ", HTML.UL({
     "class": "nav navbar-nav navbar-right"
-  }, "\n            ", Spacebars.include(view.lookupTemplate("loginButtons")), "\n          "), "\n        "), HTML.Raw("<!--/.navbar-collapse -->"), "\n      "), "\n    ") ];
+  }, "\n          ", Spacebars.include(view.lookupTemplate("loginButtons")), "\n        "), "\n      "), "\n    ") ];
 }));
 
 }).call(this);
