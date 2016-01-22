@@ -774,22 +774,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/templates/application/template.header.js?239f2d9861fc6a82a4f979e36f3f274a2e851548",
+      "url": "/app/client/templates/application/template.header.js?011277b9d8452ecda5c4034a77cff729a60e9602",
       "sourceMap": "app/client/templates/application/template.header.js.map",
-      "sourceMapUrl": "/app/client/templates/application/239f2d9861fc6a82a4f979e36f3f274a2e851548.map",
-      "size": 1504,
-      "hash": "239f2d9861fc6a82a4f979e36f3f274a2e851548"
-    },
-    {
-      "path": "app/client/templates/application/template.landingPage.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/app/client/templates/application/template.landingPage.js?4d97402fe1dd56bee8b050f24b11e259d3aac9cc",
-      "sourceMap": "app/client/templates/application/template.landingPage.js.map",
-      "sourceMapUrl": "/app/client/templates/application/4d97402fe1dd56bee8b050f24b11e259d3aac9cc.map",
-      "size": 2148,
-      "hash": "4d97402fe1dd56bee8b050f24b11e259d3aac9cc"
+      "sourceMapUrl": "/app/client/templates/application/011277b9d8452ecda5c4034a77cff729a60e9602.map",
+      "size": 1810,
+      "hash": "011277b9d8452ecda5c4034a77cff729a60e9602"
     },
     {
       "path": "app/client/templates/application/template.layout.js",
@@ -803,15 +792,15 @@
       "hash": "f88952ab66d6e7aaacfd0ba339aa6520e2bc4154"
     },
     {
-      "path": "app/client/templates/application/template.not_found.js",
+      "path": "app/client/templates/classrooms/template.classroom_page.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/templates/application/template.not_found.js?ff46c8ec5a9e44c21910d51cb973e4f04fd1431b",
-      "sourceMap": "app/client/templates/application/template.not_found.js.map",
-      "sourceMapUrl": "/app/client/templates/application/ff46c8ec5a9e44c21910d51cb973e4f04fd1431b.map",
-      "size": 308,
-      "hash": "ff46c8ec5a9e44c21910d51cb973e4f04fd1431b"
+      "url": "/app/client/templates/classrooms/template.classroom_page.js?23276e532fb66d901dad71ed23bb4f64f76574ce",
+      "sourceMap": "app/client/templates/classrooms/template.classroom_page.js.map",
+      "sourceMapUrl": "/app/client/templates/classrooms/23276e532fb66d901dad71ed23bb4f64f76574ce.map",
+      "size": 514,
+      "hash": "23276e532fb66d901dad71ed23bb4f64f76574ce"
     },
     {
       "path": "app/client/templates/includes/template.access_denied.js",
@@ -836,15 +825,48 @@
       "hash": "40d06256179395e6be3378b5c8fa535a8537dfa9"
     },
     {
+      "path": "app/client/templates/includes/template.not_found.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/templates/includes/template.not_found.js?ff46c8ec5a9e44c21910d51cb973e4f04fd1431b",
+      "sourceMap": "app/client/templates/includes/template.not_found.js.map",
+      "sourceMapUrl": "/app/client/templates/includes/ff46c8ec5a9e44c21910d51cb973e4f04fd1431b.map",
+      "size": 308,
+      "hash": "ff46c8ec5a9e44c21910d51cb973e4f04fd1431b"
+    },
+    {
+      "path": "app/client/templates/landing_page/template.landing_page.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/templates/landing_page/template.landing_page.js?4d97402fe1dd56bee8b050f24b11e259d3aac9cc",
+      "sourceMap": "app/client/templates/landing_page/template.landing_page.js.map",
+      "sourceMapUrl": "/app/client/templates/landing_page/4d97402fe1dd56bee8b050f24b11e259d3aac9cc.map",
+      "size": 2148,
+      "hash": "4d97402fe1dd56bee8b050f24b11e259d3aac9cc"
+    },
+    {
+      "path": "app/lib/collections/classrooms.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/lib/collections/classrooms.js?fb6b9a74b1f64133603054cd5294cc14985f0e7e",
+      "sourceMap": "app/lib/collections/classrooms.js.map",
+      "sourceMapUrl": "/app/lib/collections/fb6b9a74b1f64133603054cd5294cc14985f0e7e.map",
+      "size": 624,
+      "hash": "fb6b9a74b1f64133603054cd5294cc14985f0e7e"
+    },
+    {
       "path": "app/lib/router.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/lib/router.js?e12ae9950b479ab14430484ec42e97287f201e02",
+      "url": "/app/lib/router.js?c7d73a8200dc4769755ca4afe799cc8ef3dedd4f",
       "sourceMap": "app/lib/router.js.map",
-      "sourceMapUrl": "/app/lib/e12ae9950b479ab14430484ec42e97287f201e02.map",
-      "size": 1076,
-      "hash": "e12ae9950b479ab14430484ec42e97287f201e02"
+      "sourceMapUrl": "/app/lib/c7d73a8200dc4769755ca4afe799cc8ef3dedd4f.map",
+      "size": 1152,
+      "hash": "c7d73a8200dc4769755ca4afe799cc8ef3dedd4f"
     },
     {
       "path": "app/client/helpers/config.js",
@@ -884,11 +906,11 @@
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?03793d3182962376f57a6ff23729f2a3346817ce",
+      "url": "/merged-stylesheets.css?91dd0e8c3556a2ae1dcb98582e9e0bff3b3d7607",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/03793d3182962376f57a6ff23729f2a3346817ce.map",
-      "size": 152291,
-      "hash": "03793d3182962376f57a6ff23729f2a3346817ce"
+      "sourceMapUrl": "/91dd0e8c3556a2ae1dcb98582e9e0bff3b3d7607.map",
+      "size": 152872,
+      "hash": "91dd0e8c3556a2ae1dcb98582e9e0bff3b3d7607"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",

@@ -329,6 +329,10 @@
       "path": "packages/global-imports.js"
     },
     {
+      "sourceMap": "app/lib/collections/classrooms.js.map",
+      "path": "app/lib/collections/classrooms.js"
+    },
+    {
       "sourceMap": "app/lib/router.js.map",
       "path": "app/lib/router.js"
     },

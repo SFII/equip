@@ -13,6 +13,7 @@ Router.configure({                                                     // 1
 });                                                                    //
                                                                        //
 Router.route('/', { name: 'landingPage' });                            // 7
+Router.route('/classrooms', { name: 'classroomPage' });                // 8
 /////////////////////////////////////////////////////////////////////////
 
 }).call(this);
